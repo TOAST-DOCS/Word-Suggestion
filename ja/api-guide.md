@@ -84,11 +84,7 @@ curl -X POST 'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appK
 
 | メソッド | URI |
 | --- | --- |
-<<<<<<< HEAD
 | GET | https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words |
-=======
-| GET | https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words |
->>>>>>> beta
 
 [リクエストヘッダ]
 
@@ -110,11 +106,7 @@ curl -X POST 'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appK
 [リクエスト本文]
 
 ```
-<<<<<<< HEAD
 curl -X GET 'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
-=======
-curl -X GET 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
->>>>>>> beta
 ```
 
 #### レスポンス
@@ -187,11 +179,7 @@ curl -X GET 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{
 
 | メソッド | URI |
 | --- | --- |
-<<<<<<< HEAD
 | POST | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
-=======
-| POST | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
->>>>>>> beta
 
 [リクエストヘッダ]
 
@@ -203,11 +191,7 @@ curl -X GET 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{
 [リクエスト本文]
 
 ```
-<<<<<<< HEAD
 curl -X POST 'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words' \
-=======
-curl -X POST 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words' \
->>>>>>> beta
 -H 'Authorization: ${secretKey}' \
 -H 'Content-Type: application/json' \
 --data-raw '{
@@ -254,11 +238,7 @@ curl -X POST 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/
 
 | メソッド | URI |
 | --- | --- |
-<<<<<<< HEAD
 | PUT | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
-=======
-| PUT | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
->>>>>>> beta
 
 [リクエストヘッダ]
 
@@ -270,11 +250,7 @@ curl -X POST 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/
 [リクエスト本文]
 
 ```
-<<<<<<< HEAD
 curl -X PUT 'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
-=======
-curl -X PUT 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
->>>>>>> beta
 ```
 
 [フィールド]
@@ -314,11 +290,7 @@ curl -X PUT 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{
 
 | メソッド | URI |
 | --- | --- |
-<<<<<<< HEAD
 | DELETE | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
-=======
-| DELETE | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
->>>>>>> beta
 
 [リクエストヘッダ]
 
@@ -330,11 +302,7 @@ curl -X PUT 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{
 [リクエスト本文]
 
 ```
-<<<<<<< HEAD
 curl -X DELETE'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
-=======
-curl -X DELETE'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
->>>>>>> beta
 -H 'Authorization: ${secretKey}' \
 -H 'Content-Type: application/json' \
 --data-raw '{
@@ -381,11 +349,7 @@ curl -X DELETE'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys
 
 | メソッド | URI |
 | --- | --- |
-<<<<<<< HEAD
 | GET | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/service-use](https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
-=======
-| GET | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/service-use](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
->>>>>>> beta
 
 [リクエストヘッダ]
 
@@ -431,11 +395,7 @@ curl -X DELETE'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys
 
 | メソッド | URI |
 |-----| --- |
-<<<<<<< HEAD
 | PUT | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/service-use](https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
-=======
-| PUT | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/service-use](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
->>>>>>> beta
 
 [リクエストヘッダ]
 

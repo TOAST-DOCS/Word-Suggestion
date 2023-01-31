@@ -84,11 +84,7 @@ curl -X POST 'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appK
 
 | 메서드 | URI |
 | --- | --- |
-<<<<<<< HEAD
 | GET | https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words |
-=======
-| GET | https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words |
->>>>>>> beta
 
 [요청 헤더]
 
@@ -110,11 +106,7 @@ curl -X POST 'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appK
 [요청 본문]
 
 ```
-<<<<<<< HEAD
 curl -X GET 'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
-=======
-curl -X GET 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
->>>>>>> beta
 ```
 
 #### 응답
@@ -186,11 +178,7 @@ curl -X GET 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{
 
 | 메서드 | URI |
 | --- | --- |
-<<<<<<< HEAD
 | POST | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
-=======
-| POST | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
->>>>>>> beta
 
 [요청 헤더]
 
@@ -202,11 +190,7 @@ curl -X GET 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{
 [요청 본문]
 
 ```
-<<<<<<< HEAD
 curl -X POST 'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words' \
-=======
-curl -X POST 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words' \
->>>>>>> beta
 -H 'Authorization: ${secretKey}' \
 -H 'Content-Type: application/json' \
 --data-raw '{
@@ -253,11 +237,7 @@ curl -X POST 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/
 
 | 메서드 | URI |
 | --- | --- |
-<<<<<<< HEAD
 | PUT | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
-=======
-| PUT | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
->>>>>>> beta
 
 [요청 헤더]
 
@@ -269,11 +249,7 @@ curl -X POST 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/
 [요청 본문]
 
 ```
-<<<<<<< HEAD
 curl -X PUT 'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
-=======
-curl -X PUT 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
->>>>>>> beta
 ```
 
 [필드]
@@ -313,11 +289,7 @@ curl -X PUT 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{
 
 | 메서드 | URI |
 | --- | --- |
-<<<<<<< HEAD
 | DELETE | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
-=======
-| DELETE | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
->>>>>>> beta
 
 [요청 헤더]
 
@@ -329,11 +301,7 @@ curl -X PUT 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{
 [요청 본문]
 
 ```
-<<<<<<< HEAD
 curl -X DELETE'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
-=======
-curl -X DELETE'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
->>>>>>> beta
 -H 'Authorization: ${secretKey}' \
 -H 'Content-Type: application/json' \
 --data-raw '{
@@ -380,11 +348,7 @@ curl -X DELETE'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys
 
 | 메서드 | URI |
 | --- | --- |
-<<<<<<< HEAD
 | GET | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/service-use](https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
-=======
-| GET | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/service-use](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
->>>>>>> beta
 
 [요청 헤더]
 
@@ -430,11 +394,7 @@ curl -X DELETE'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys
 
 | 메서드 | URI |
 |-----| --- |
-<<<<<<< HEAD
 | PUT | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/service-use](https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
-=======
-| PUT | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/service-use](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
->>>>>>> beta
 
 [요청 헤더]
 
