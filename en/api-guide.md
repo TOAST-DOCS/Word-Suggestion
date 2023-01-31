@@ -82,9 +82,15 @@ Request
 
 [URI]
 
+<<<<<<< HEAD
 | Method | URI                                                                         |
 | --- |-----------------------------------------------------------------------------|
 | GET | https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words |
+=======
+| Method | URI |
+| --- | --- |
+| GET | https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words |
+>>>>>>> beta
 
 [Request Header]
 
@@ -106,7 +112,11 @@ Request
 [Request Body]
 
 ```
+<<<<<<< HEAD
 curl -X GET 'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
+=======
+curl -X GET 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
+>>>>>>> beta
 ```
 
 #### Response
@@ -177,9 +187,15 @@ Request
 
 [URI]
 
+<<<<<<< HEAD
 | Method | URI                                                                                                                                                                                 |
 | --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | POST | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
+=======
+| Method | URI |
+| --- | --- |
+| POST | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
+>>>>>>> beta
 
 [Request Header]
 
@@ -191,7 +207,11 @@ Request
 [Request Body]
 
 ```
+<<<<<<< HEAD
 curl -X POST 'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words' \
+=======
+curl -X POST 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words' \
+>>>>>>> beta
 -H 'Authorization: ${secretKey}' \
 -H 'Content-Type: application/json' \
 --data-raw '{
@@ -236,9 +256,15 @@ Request
 
 [URI]
 
+<<<<<<< HEAD
 | Method | URI                                                                                                                                                                                 |
 | --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PUT | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
+=======
+| Method | URI |
+| --- | --- |
+| PUT | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
+>>>>>>> beta
 
 [Request Header]
 
@@ -250,7 +276,11 @@ Request
 [Request Body]
 
 ```
+<<<<<<< HEAD
 curl -X PUT 'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
+=======
+curl -X PUT 'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
+>>>>>>> beta
 ```
 
 [Field]
@@ -288,9 +318,15 @@ Request
 
 [URI]
 
+<<<<<<< HEAD
 | Method | URI                                                                                                                                                                                 |
 | --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DELETE | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
+=======
+| Method | URI |
+| --- | --- |
+| DELETE | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
+>>>>>>> beta
 
 [Request Header]
 
@@ -302,7 +338,11 @@ Request
 [Request Body]
 
 ```
+<<<<<<< HEAD
 curl -X DELETE'https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
+=======
+curl -X DELETE'https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/words'
+>>>>>>> beta
 -H 'Authorization: ${secretKey}' \
 -H 'Content-Type: application/json' \
 --data-raw '{
@@ -346,9 +386,15 @@ Request
 
 [URI]
 
+<<<<<<< HEAD
 | Method | URI                                                                                                                                                                                                            |
 | --- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GET | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/service-use](https://word-suggestionword-suggestion-alpha.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
+=======
+| Method | URI                                                                                                                                                                                                  |
+| --- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| GET | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/service-use](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
+>>>>>>> beta
 
 [Request Header]
 
@@ -392,9 +438,15 @@ Request
 
 [URI]
 
+<<<<<<< HEAD
 | Method | URI                                                                                                                                                                                       |
 |-----|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PUT | [https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/{appKey}/service-use](https://word-suggestion.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary) |
+=======
+| Method | URI |
+|-----| --- |
+| PUT | [https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/{appKey}/service-use](https://word-suggestion-beta.api.nhncloudservice.com/v1.0/appkeys/%7BappKey%7D/word-suggestion/dictionary)  |
+>>>>>>> beta
 
 [Request Header]
 
