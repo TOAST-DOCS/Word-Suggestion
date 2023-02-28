@@ -95,13 +95,13 @@ Request
 
 [Query]
 
-| Name | Type | Required | Description                                                                                                    |
-| --- | --- | --- |-------------------------------------------------------------------------------------------------------|
+| Name | Type | Required | Description                                                                                                                                                               |
+| --- | --- | --- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | sortKey | String | - | Property to use when sorting out words<br>`update_datetime`: Sort by last updated (Default)<br>`create_datetime`: Sort by word created first<br>`word`: Sort by word name |
-| word | String | - | {word} words containing strings                                                                                   |
-| sortDirection | String | - | Property to sort words<br>`asc`: Ascending order<br>`desc`: Descending order (Default)                                                      |
-| page | Long | - | Page                                                                                                   |
-| limit | Long | - | Number of words to return (Max 5000 words)                                                                                  |
+| word | String | - | {word} words containing strings                                                                                                                                           |
+| sortDirection | String | - | Property to sort words<br>`asc`: Ascending order<br>`desc`: Descending order (Default)                                                                                    |
+| page | Long | - | Page                                                                                                                                                                      |
+| limit | Long | - | Number of words to return (Max 5,000 words)                                                                                                                               |
 
 [Request Body]
 
